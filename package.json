@@ -1,13 +1,13 @@
 {
   "name": "template",
   "version": "1.0.0",
-  "description": "",
+  "description": "A TypeScript template project.",
   "main": "dist",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint src --ext ts",
     "lint:fix": "eslint src --fix --ext ts",
-    "build": "tsup"
+    "build": "swc src -d dist"
   },
   "type": "module",
   "author": "KagChi",
@@ -21,7 +21,6 @@
     "@typescript-eslint/parser": "^5.28.0",
     "eslint": "^8.17.0",
     "rimraf": "^3.0.2",
-    "tsup": "^6.1.2",
     "typescript": "^4.7.3"
   },
   "eslintConfig": {
@@ -37,7 +36,6 @@
       "plugin:@typescript-eslint/recommended",
       "@hazmi35/eslint-config/typescript"
     ],
-    "rules": {
-    }
+    "rules": {}
   }
 }
