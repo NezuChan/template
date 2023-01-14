@@ -11,17 +11,13 @@ on:
 jobs:
   lint:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: "./.node-version"
-
     steps:
     - name: Checkout repository
       uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c # v3
-    - name: Use Node.js ${{ matrix.node-version }}
+    - name: Setup Node.js
       uses: actions/setup-node@64ed1c7eab4cce3362f8c340dee64e5eaeef8f7c # v3
       with:
-        node-version: ${{ matrix.node-version }}
+        node-version: "./.node-version"
     - name: Install dependencies
       run: npm install
     - name: Lint code
@@ -30,17 +26,13 @@ jobs:
   compile:
     needs: lint
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: "./.node-version"
-
     steps:
     - name: Checkout repository
       uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c # v3
-    - name: Use Node.js ${{ matrix.node-version }}
+    - name: Setup Node.js
       uses: actions/setup-node@64ed1c7eab4cce3362f8c340dee64e5eaeef8f7c # v3
       with:
-        node-version: ${{ matrix.node-version }}
+        node-version: "./.node-version"
     - name: Install dependencies
       run: npm install
     - name: Test compile
