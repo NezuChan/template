@@ -17,9 +17,9 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@64ed1c7eab4cce3362f8c340dee64e5eaeef8f7c # v3
       with:
-        node-version: "./.node-version"
+        node-version-file: .node-version
     - name: Install dependencies
-      run: npm install
+      run: npm ci
     - name: Lint code
       run: npm run lint
 
@@ -32,9 +32,9 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@64ed1c7eab4cce3362f8c340dee64e5eaeef8f7c # v3
       with:
-        node-version: "./.node-version"
+        node-version-file: .node-version
     - name: Install dependencies
-      run: npm install
+      run: npm ci
     - name: Test compile
       run: npm run build
     
