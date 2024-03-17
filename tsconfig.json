@@ -18,5 +18,5 @@
         "typeRoots": ["node_modules/@types", "src/typings"]
     },
     "exclude": ["node_modules", "node_modules/**/**.d.ts"],
-    "include": ["src/**/**.ts", "src/**/**.json", "tsup.config.ts"],
+    "include": ["src/**/**.ts", "src/**/**.json", "eslint.config.js"],
 }
