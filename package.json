@@ -17,8 +17,8 @@
     "@swc/cli": "^0.3.12",
     "@swc/core": "^1.6.3",
     "@types/node": "^20.14.7",
-    "@typescript-eslint/eslint-plugin": "^7.15.0",
-    "@typescript-eslint/parser": "^7.15.0",
+    "@typescript-eslint/eslint-plugin": "^7.16.1",
+    "@typescript-eslint/parser": "^7.16.1",
     "eslint": "^8.57.0",
     "rimraf": "^5.0.7",
     "typescript": "^5.5.3"
