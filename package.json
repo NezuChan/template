@@ -14,13 +14,13 @@
   "license": "GPL-3.0",
   "devDependencies": {
     "@hazmi35/eslint-config": "^13.3.1",
-    "@swc/cli": "^0.3.12",
-    "@swc/core": "^1.6.3",
-    "@types/node": "^20.14.7",
+    "@swc/cli": "^0.4.0",
+    "@swc/core": "^1.7.0",
+    "@types/node": "^20.14.11",
     "@typescript-eslint/eslint-plugin": "^7.17.0",
     "@typescript-eslint/parser": "^7.17.0",
     "eslint": "^8.57.0",
-    "rimraf": "^5.0.7",
+    "rimraf": "^5.0.9",
     "typescript": "^5.5.3"
   }
 }
