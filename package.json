@@ -13,13 +13,13 @@
   "author": "KagChi",
   "license": "GPL-3.0",
   "devDependencies": {
-    "@hazmi35/eslint-config": "^13.3.1",
+    "@hazmi35/eslint-config": "^14.0.1",
     "@swc/cli": "^0.4.0",
     "@swc/core": "^1.7.2",
     "@types/node": "^20.14.12",
-    "@typescript-eslint/eslint-plugin": "^7.17.0",
-    "@typescript-eslint/parser": "^7.17.0",
-    "eslint": "^8.57.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.1",
+    "@typescript-eslint/parser": "^8.0.1",
+    "eslint": "^9.8.0",
     "rimraf": "^6.0.1",
     "typescript": "^5.5.4"
   }
