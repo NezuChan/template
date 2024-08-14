@@ -15,7 +15,7 @@
   "devDependencies": {
     "@hazmi35/eslint-config": "^13.3.1",
     "@swc/cli": "^0.4.0",
-    "@swc/core": "^1.7.10",
+    "@swc/core": "^1.7.11",
     "@types/node": "^20.14.15",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
@@ -23,5 +23,5 @@
     "rimraf": "^6.0.1",
     "typescript": "^5.5.4"
   },
-  "packageManager": "pnpm@9.7.0"
+  "packageManager": "pnpm@9.7.1"
 }
