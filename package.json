@@ -14,7 +14,7 @@
   "license": "GPL-3.0",
   "devDependencies": {
     "@hazmi35/eslint-config": "^13.3.1",
-    "@swc/cli": "^0.6.0",
+    "@swc/cli": "^0.7.3",
     "@swc/core": "^1.11.21",
     "@types/node": "^22.14.1",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
@@ -23,5 +23,5 @@
     "rimraf": "^6.0.1",
     "typescript": "^5.8.3"
   },
-  "packageManager": "pnpm@10.8.1"
+  "packageManager": "pnpm@10.9.0"
 }
