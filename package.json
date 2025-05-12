@@ -14,7 +14,7 @@
   "license": "GPL-3.0",
   "devDependencies": {
     "@hazmi35/eslint-config": "^13.3.1",
-    "@swc/cli": "^0.7.5",
+    "@swc/cli": "^0.7.7",
     "@swc/core": "^1.11.22",
     "@types/node": "^22.15.17",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
