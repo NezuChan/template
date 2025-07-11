@@ -18,8 +18,8 @@ importers:
         specifier: ^1.12.11
         version: 1.12.11
       '@types/node':
-        specifier: ^22.16.2
-        version: 22.16.2
+        specifier: ^22.16.3
+        version: 22.16.3
       '@typescript-eslint/eslint-plugin':
         specifier: ^7.18.0
         version: 7.18.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.8.3))(eslint@8.57.1)(typescript@5.8.3)
@@ -282,8 +282,8 @@ packages:
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
-  '@types/node@22.16.2':
-    resolution: {integrity: sha512-Cdqa/eJTvt4fC4wmq1Mcc0CPUjp/Qy2FGqLza3z3pKymsI969TcZ54diNJv8UYUgeWxyb8FSbCkhdR6WqmUFhA==}
+  '@types/node@22.16.3':
+    resolution: {integrity: sha512-sr4Xz74KOUeYadexo1r8imhRtlVXcs+j3XK3TcoiYk7B1t3YRVJgtaD3cwX73NYb71pmVuMLNRhJ9XKdoDB74g==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -1475,10 +1475,6 @@ packages:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
 
-  picomatch@4.0.1:
-    resolution: {integrity: sha512-xUXwsxNjwTQ8K3GnT4pCJm+xq3RUPQbmkYJTP5aFIfNIvbcc/4MUxgBaaRSZJ6yGJZiGSyYlM6MzwTsRk8SYCg==}
-    engines: {node: '>=12'}
-
   picomatch@4.0.2:
     resolution: {integrity: sha512-M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==}
     engines: {node: '>=12'}
@@ -2000,7 +1996,7 @@ snapshots:
       '@types/eslint': 8.56.5
       eslint: 8.57.1
       estraverse: 5.3.0
-      picomatch: 4.0.1
+      picomatch: 4.0.2
 
   '@stylistic/eslint-plugin-plus@1.7.0(eslint@8.57.1)(typescript@5.8.3)':
     dependencies:
@@ -2117,7 +2113,7 @@ snapshots:
 
   '@types/json5@0.0.29': {}
 
-  '@types/node@22.16.2':
+  '@types/node@22.16.3':
     dependencies:
       undici-types: 6.21.0
 
@@ -3478,8 +3474,6 @@ snapshots:
   picocolors@1.0.0: {}
 
   picomatch@2.3.1: {}
-
-  picomatch@4.0.1: {}
 
   picomatch@4.0.2: {}
 
